@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Annie K. Lamar, Kathryn Stutz, Marcelle Rutherfurd"
+  },
+  "text": {
+    "more": "This project was completed by Professor Bill Barry\u0027s Greek 301 class at the University of Puget Sound during fall 2017. The graph shows the architecture of digressions in Herodotus\u0027 Histories Book VI. ",
+    "intro": "This graph shows the architecture of the digressions in Herodotus VI. Use the group selector to filter by the level of digression. The nodes are also color coded by level of digression; to view just the nodes that belong to the main narrative, filter by only the light green nodes. Each node also has a section summary and commentary.",
+    "title": "Digression Architecture of Herodotus VI"
+  },
+  "legend": {
+    "edgeLabel": "Path through text",
+    "colorLabel": "Level of digression",
+    "nodeLabel": "Event"
+  },
+  "features": {
+    "search": false,
+    "groupSelectorAttribute": "level of digression",
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
